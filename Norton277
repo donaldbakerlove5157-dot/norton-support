@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Norton Support Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fdd835;
+      color: #222;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .support-number {
+      font-size: 1.4em;
+      color: #d32f2f;
+      margin: 15px 0;
+    }
+    .button {
+      background-color: #0288d1;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Norton Support</h1>
+  <p>Your Security, Our Priority</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Support</a
