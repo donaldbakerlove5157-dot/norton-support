@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Support</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+    .header {
+      padding: 20px;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .main {
+      padding: 30px 20px;
+      background: #fff;
+      margin: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .main h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .main p {
+      font-size: 16px;
+      color: #444;
+    }
+    .btn-yellow {
+      background: #ffdc00;
+      color: #000;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    .highlight {
+      color: #0043ce;
+      font-weight: bold;
+    }
+    .support-tab {
+      position: fixed;
+      right: 0;
+      top: 50%;
+      background: #ffdc00;
+      padding: 10px;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-weight: bold;
+      font-size: 14px;
+      border-radius: 8px 0 0 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>MySupport</h1>
+  </div>
+
+  <div class="support-tab">Customer Care</div>
+
+  <div class="main">
+    <h2>What can we help you with?</h2>
+    <p>Call <span class="highlight">803-123-4567</span> for Customer Care and Support for your services.</p>
+    <button class="btn-yellow">Call Now</button>
+  </div>
+
+  <div class="main" style="margin-top: 10px;">
+    <h2>Upgrade for Free</h2>
+    <p>Stay protected and get the latest tools. Offer available to existing users only.</p>
+    <button class="btn-yellow">Upgrade Now for Free</button>
+  </div>
+
+</body>
+</html>
